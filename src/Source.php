@@ -122,7 +122,7 @@ class Source
             if ($content === false) {
                 throw new Exception('Could not get file content for path "' . $path . '"');
             }
-            return $content;
+            return $this->path;
         }
     }
 }
